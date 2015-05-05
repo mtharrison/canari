@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var Commander = require('commander');
 var Canari = require('./lib/canari');
 var Path = require('path');
