@@ -1,0 +1,25 @@
+{
+  "name": "canari",
+  "version": "0.0.0",
+  "description": "Graphite backed alerting system with a simple JSON configuration approach",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtharrison/canari.git"
+  },
+  "keywords": [
+    "graphite",
+    "alerting",
+    "statsd",
+    "monitoring"
+  ],
+  "author": "Matt Harrison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtharrison/canari/issues"
+  },
+  "homepage": "https://github.com/mtharrison/canari"
+}
