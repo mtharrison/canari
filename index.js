@@ -15,6 +15,6 @@ if (!Commander.file) {
     process.exit(1);
 } 
 
-var config = JSON.parse(Fs.readFileSync(Path.resolve(Commander.file)));
+var config = require(Path.resolve(Commander.file));
 
 new Canari(config).start();
